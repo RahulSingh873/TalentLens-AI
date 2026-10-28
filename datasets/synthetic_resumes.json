@@ -1,0 +1,82 @@
+[
+  {
+    "resume_id": "synth_cand_01",
+    "candidate_name": "Alex Taylor",
+    "skills": ["Python", "PyTorch", "Natural Language Processing", "Transformers", "Docker", "AWS"],
+    "total_experience_years": 4.5,
+    "degree": "Master of Science",
+    "field_of_study": "Computer Science",
+    "text": "Machine Learning Engineer with 4.5 years building NLP models using PyTorch, HuggingFace Transformers, Docker, and AWS.",
+    "label_suitability": 1
+  },
+  {
+    "resume_id": "synth_cand_02",
+    "candidate_name": "Jordan Smith",
+    "skills": ["Python", "FastAPI", "React", "PostgreSQL", "Docker", "TypeScript"],
+    "total_experience_years": 3.5,
+    "degree": "Bachelor of Science",
+    "field_of_study": "Software Engineering",
+    "text": "Full stack software engineer with 3.5 years developing web applications in Python FastAPI, React, PostgreSQL, and Docker.",
+    "label_suitability": 1
+  },
+  {
+    "resume_id": "synth_cand_03",
+    "candidate_name": "Morgan Lee",
+    "skills": ["Python", "Pandas", "NumPy", "scikit-learn", "SQL"],
+    "total_experience_years": 2.5,
+    "degree": "Bachelor of Science",
+    "field_of_study": "Data Science & Statistics",
+    "text": "Data scientist with 2.5 years experience in tabular statistical analysis using Python, Pandas, scikit-learn, and SQL.",
+    "label_suitability": 0
+  },
+  {
+    "resume_id": "synth_cand_04",
+    "candidate_name": "Casey Rivera",
+    "skills": ["Docker", "Kubernetes", "AWS", "CI/CD", "Linux", "Python"],
+    "total_experience_years": 5.0,
+    "degree": "Bachelor of Engineering",
+    "field_of_study": "Information Technology",
+    "text": "DevOps engineer with 5 years managing Kubernetes clusters, Docker, CI/CD pipelines, and AWS cloud architecture.",
+    "label_suitability": 0
+  },
+  {
+    "resume_id": "synth_cand_05",
+    "candidate_name": "Riley Patel",
+    "skills": ["Python", "PyTorch", "Deep Learning", "Computer Vision", "Docker"],
+    "total_experience_years": 4.0,
+    "degree": "Master of Science",
+    "field_of_study": "Artificial Intelligence",
+    "text": "Computer vision and deep learning engineer with 4 years deploying neural networks with PyTorch and Docker.",
+    "label_suitability": 1
+  },
+  {
+    "resume_id": "synth_cand_06",
+    "candidate_name": "Samira Khan",
+    "skills": ["Java", "Spring Boot", "MySQL", "REST APIs", "Git"],
+    "total_experience_years": 4.0,
+    "degree": "Bachelor of Technology",
+    "field_of_study": "Computer Science",
+    "text": "Backend enterprise developer specializing in Java, Spring Boot, MySQL, and microservice REST APIs.",
+    "label_suitability": 0
+  },
+  {
+    "resume_id": "synth_cand_07",
+    "candidate_name": "Daniel Zhang",
+    "skills": ["Python", "Transformers", "Natural Language Processing", "Large Language Models", "PyTorch", "FastAPI"],
+    "total_experience_years": 5.0,
+    "degree": "Ph.D.",
+    "field_of_study": "Computational Linguistics",
+    "text": "NLP researcher with 5 years experience in large language models, Transformers, tokenization, and vector search with PyTorch.",
+    "label_suitability": 1
+  },
+  {
+    "resume_id": "synth_cand_08",
+    "candidate_name": "Emily Watson",
+    "skills": ["HTML", "CSS", "JavaScript", "React"],
+    "total_experience_years": 1.0,
+    "degree": "Associate Degree",
+    "field_of_study": "Web Development",
+    "text": "Junior frontend developer with 1 year experience building UI prototypes in HTML, CSS, and basic React.",
+    "label_suitability": 0
+  }
+]

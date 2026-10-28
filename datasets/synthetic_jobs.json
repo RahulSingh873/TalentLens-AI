@@ -1,0 +1,20 @@
+[
+  {
+    "job_id": "job_benchmark_nlp",
+    "title": "Machine Learning / NLP Engineer",
+    "department": "AI Labs",
+    "required_skills": ["Python", "PyTorch", "Natural Language Processing", "Transformers"],
+    "preferred_skills": ["Docker", "AWS", "MLOps"],
+    "min_experience_years": 3.0,
+    "text": "Seeking an ML Engineer with Python, PyTorch, Natural Language Processing, and Transformers to train language models."
+  },
+  {
+    "job_id": "job_benchmark_fullstack",
+    "title": "Full Stack Engineer (Python & React)",
+    "department": "Cloud Platforms",
+    "required_skills": ["Python", "FastAPI", "React", "PostgreSQL"],
+    "preferred_skills": ["Docker", "TypeScript"],
+    "min_experience_years": 2.0,
+    "text": "Seeking a Full Stack Engineer with Python, FastAPI, React, and PostgreSQL to develop interactive enterprise web portals."
+  }
+]
