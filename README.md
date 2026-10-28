@@ -4,13 +4,13 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.162.0-009688.svg)](https://fastapi.tiangolo.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**TalentLens AI** is a production-inspired, explainable Artificial Intelligence platform for Resume Screening, Job Description Analysis, Multi-Criteria Candidate Ranking, and Career Trajectory Recommendations.
+**TalentLens AI** it is a production-inspired, explainable Artificial Intelligence platform for Resume Screening, Job Description Analysis, Multi-Criteria Candidate Ranking, and Career Trajectory Recommendations.
 
 Designed as a hybrid **Information Retrieval (IR)** and **Multi-Criteria Decision Analysis (MCDA)** system, TalentLens AI reconciles deterministic symbolic entity validation (hierarchical canonical skill taxonomy) with dense contextual semantic embeddings (`all-MiniLM-L6-v2` Sentence Transformers), providing 100% evidence-grounded hiring recommendations.
 
 ---
 
-## 🚀 Key Features
+##  Key Features- Here are some of the key features
 
 - **Document Parsing (PDF & DOCX)**: Automated text extraction, section segmentation (Experience, Education, Skills, Projects, Certifications), date/tenure calculation, and contact info extraction.
 - **Hierarchical Skill Taxonomy**: Deterministic normalization of thousands of spelling variants and aliases (e.g., `sklearn` $\rightarrow$ `scikit-learn`, `k8s` $\rightarrow$ `Kubernetes`, `python3` $\rightarrow$ `Python`).
@@ -29,7 +29,7 @@ Designed as a hybrid **Information Retrieval (IR)** and **Multi-Criteria Decisio
 
 ---
 
-## 🏛️ System Architecture
+##  System Architectur
 
 ```
                            +---------------------------+
@@ -124,7 +124,7 @@ Open your browser to:
 
 ---
 
-## 🧪 Testing & Model Evaluation
+## 🧪 Testing & Model Evaluation 
 
 ### Run Automated Unit Tests
 ```bash
@@ -148,7 +148,7 @@ python training/generate_evaluation_report.py
 
 ---
 
-## 📊 Benchmark Comparison Results
+##  Benchmark Comparison Results
 
 | Ranking Approach | P@3 | NDCG@3 | MRR | Latency | Note |
 |---|---|---|---|---|---|
@@ -159,7 +159,7 @@ python training/generate_evaluation_report.py
 
 ---
 
-## 📚 Technical Documentation
+##  Technical Documentation- Here i m inlcuding the technical implementation that are used while building this project.
 
 - [System Architecture & Flow Specification](docs/ARCHITECTURE.md)
 - [Mathematical Formulations & Scoring Formulas](docs/ALGORITHMS_AND_FORMULAS.md)
