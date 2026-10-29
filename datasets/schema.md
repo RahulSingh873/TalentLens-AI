@@ -53,3 +53,38 @@ All benchmark candidate records, job descriptions, and recruiter interaction log
   "min_experience_years": "float"
 }
 ```
+
+---
+
+## 3. Evaluation & Benchmark CSV Dataset (`datasets/talentlens_evaluation_dataset.csv`)
+
+This dataset contains 50 paired candidate-job screening records across 5 engineering domains (Machine Learning/NLP, Full-Stack Cloud, Data Platform, Cloud DevOps, Cybersecurity).
+
+| Column Name | Data Type | Description | Example |
+| :--- | :--- | :--- | :--- |
+| `pair_id` | string | Unique screening pair identifier | `TL_PAIR_001` |
+| `candidate_id` | string | Anonymized candidate ID | `CAND_002` |
+| `candidate_name` | string | Synthetic candidate full name | `Alice Chen` |
+| `total_experience_years` | float | Candidate verified professional tenure | `6.0` |
+| `education_level` | string | Highest degree attained | `Master of Science` |
+| `degree_major` | string | Academic field of study | `Computer Science` |
+| `extracted_skills` | string | Semicolon-separated canonical skill tags | `Python; PyTorch; Transformers` |
+| `resume_summary` | string | Free-text professional summary | `Senior Machine Learning Engineer...` |
+| `job_id` | string | Target job opening ID | `JOB_ML_01` |
+| `job_title` | string | Target role title | `Machine Learning / NLP Engineer` |
+| `job_department` | string | Hiring department | `Artificial Intelligence & Data` |
+| `job_required_skills` | string | Semicolon-separated mandatory skills | `Python; PyTorch; NLP; Transformers` |
+| `job_preferred_skills` | string | Semicolon-separated preferred skills | `Docker; AWS; MLOps; FastAPI` |
+| `job_min_experience_years` | float | Minimum required experience | `3.0` |
+| `required_skill_overlap_count` | integer | Number of matching required skills | `4` |
+| `required_skill_coverage_ratio` | float | Fraction of required skills met [0.0 - 1.0] | `1.0` |
+| `preferred_skill_overlap_count` | integer | Number of matching preferred skills | `3` |
+| `preferred_skill_coverage_ratio` | float | Fraction of preferred skills met [0.0 - 1.0] | `0.75` |
+| `semantic_similarity_score` | float | Dense Sentence Transformer cosine similarity | `0.882` |
+| `experience_fit_ratio` | float | Experience ratio clamped to 1.0 | `1.0` |
+| `overall_match_score` | float | 5-dimension MCDA composite score (0 - 100) | `92.8` |
+| `match_tier` | string | Categorical classification | `Strong Match` |
+| `ground_truth_relevance` | integer | Supervised binary suitability label (1: Yes, 0: No) | `1` |
+| `ranking_relevance_grade` | integer | IR Graded Relevance (2: High, 1: Partial, 0: Irrelevant) | `2` |
+| `evaluation_split` | string | Evaluation partition (`train` vs `test`) | `train` |
+
